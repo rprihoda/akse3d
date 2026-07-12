@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+build/
+dist/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.*
+
+# Docs and licenses (excluded to reduce image size)
+*.md
+LICENSE*
+CLA.md
+CONTRIBUTING.md
+
+# Static assets (fonts, guide images) are needed for the build
+
+# Dev documentation sites (not needed for build)
+llmdocs/
+landingpage/
+landingsside/
+
+# Build scripts
+scripts/
